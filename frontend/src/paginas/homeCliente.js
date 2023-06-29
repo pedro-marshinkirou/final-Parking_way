@@ -24,27 +24,17 @@ const HomeCliente = () => {
     navigation.navigate('ReservaCliente', {data});
   };
 
-  const handleHistórico= () => {
-    navigation.navigate('historicoFuncionario', {data});
-  };
-
   return (
     <View style={styles.page}>
-      <View style={styles.formLogin}>
-        <Text style={styles.title}>Home</Text>
-        <Text style={styles.description}>Bem-vindo à página inicial!</Text>
+       <Text style={styles.title}>Bem-vindo ao Parking Way</Text>
+      <View style={styles.formLogin}>       
+        <Text style={styles.description}></Text>
         <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.btn} onPress={handleReservar}>
-            <Text style={styles.btnText}>RESERVAR</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.btn} onPress={handleCadastro}>
-            <Text style={styles.btnText}>Cadastro</Text>
+        <TouchableOpacity style={styles.btn1} onPress={handleReservar}>
+            <Text style={styles.btnText1}>RESERVAR</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.btn} onPress={handlePerfil}>
             <Text style={styles.btnText}>Meu Perfil</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.btn} onPress={handleHistórico}>
-            <Text style={styles.btnText}>Meu Histórico</Text>
           </TouchableOpacity>
           <View style={styles.buttonSpacer} />
           <TouchableOpacity style={styles.btn} onPress={handleLogin}>
@@ -61,10 +51,10 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#000000',
   },
   formLogin: {
-    backgroundColor: '#dcdcdc',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     shadowColor: '#000',
@@ -77,12 +67,12 @@ const styles = {
     padding: 0,
     margin: 0,
     fontWeight: '500',
-    fontSize: 28,
-    color: '#000000',
+    fontSize: 24,
+    color: '#c026d3',
   },
   description: {
     fontSize: 14,
-    color: '#808080',
+    color: '#000000',
     marginBottom: 25,
   },
   buttonContainer: {
@@ -91,27 +81,26 @@ const styles = {
     padding: 0,
   },
   btn: {
-    backgroundColor: '#800080',
+    backgroundColor: '#fff',
     borderRadius: 14,
     paddingVertical: 20,
     paddingHorizontal: 40,
     margin: 10,
   },
   btn1: {
-    backgroundColor: '#ffffff',
-    borderRadius: 40,
-    paddingVertical: 9,
-    paddingHorizontal: 100,
+    backgroundColor: '#800080',
+    borderRadius: 14,
+    paddingVertical: 20,
+    paddingHorizontal: 40,
     margin: 10,
-    shadowColor: '#000',
   },
   btnText: {
-    color: '#fff',
+    color: '#800080',
     fontSize: 14,
     fontWeight: '600',
   },
   btnText1: {
-    color: '#800080',
+    color: '#fff',
     fontSize: 14,
     fontWeight: '600',
   },

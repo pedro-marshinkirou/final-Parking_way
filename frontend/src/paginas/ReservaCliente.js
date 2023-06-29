@@ -68,7 +68,6 @@ function ReservaCliente() {
             <ScrollView>
                 <View style={styles.contentLogin}>
                 <Image source={logo} style={styles.imageSet} />
-                <MapWithLocation/>
                 <Text style={styles.heading}>Escolha Seu Estacionamento</Text>
                 <View>
                     <TextInput
@@ -112,14 +111,14 @@ function ReservaCliente() {
             alignItems: 'center',
             justifyContent: 'center',
             height: '100%',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#000000',
         },
         contentLogin: {
             flex: 1,
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#000000',
             borderRadius: 7,
             padding: 40,
             width: '100%',
@@ -137,7 +136,7 @@ function ReservaCliente() {
             fontSize: 20,
             fontWeight: '500',
             marginBottom: 20,
-            color: '#800080',
+            color: '#c026d3',
         },
         boxLogin: {
             position: 'relative',
@@ -220,7 +219,7 @@ function ReservaCliente() {
             fontSize: 15,
             fontWeight: '500',
             marginBottom: 5,
-            color: '#800080',
+            color: '#fff',
         },
         btn: {
             backgroundColor: '#800080',

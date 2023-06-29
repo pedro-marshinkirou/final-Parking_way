@@ -103,7 +103,7 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#000000',
         borderRadius: 7,
         padding: 40,
         width: '100%',
@@ -118,10 +118,10 @@ const styles = {
         gap: 5,
     },
     heading: {
-        fontSize: 20,
+        fontSize: 22,
         fontWeight: '500',
         marginBottom: 20,
-        color: '#800080',
+        color: '#c026d3',
     },
     boxLogin: {
         position: 'relative',
@@ -215,7 +215,7 @@ const styles = {
         fontSize: 15,
         fontWeight: '500',
         marginBottom: 10,
-        color: '#800080',
+        color: '#fff',
     },
 };
 export default ReservaEncerrad;

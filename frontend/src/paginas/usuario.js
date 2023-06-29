@@ -129,7 +129,7 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     width:"100%",
   },
   heading: {

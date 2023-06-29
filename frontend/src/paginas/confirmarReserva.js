@@ -67,7 +67,7 @@ async function handlecreateReserva() {
             alignItems: 'center',
             justifyContent: 'center',
             height: '100%',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#000000',
         },
         contentLogin: {
             flex: 1,
@@ -89,10 +89,10 @@ async function handlecreateReserva() {
             gap: 5,
         },
         heading: {
-            fontSize: 20,
+            fontSize: 22,
             fontWeight: '500',
             marginBottom: 20,
-            color: '#800080',
+            color: '#c026d3',
         },
         boxLogin: {
             position: 'relative',
@@ -174,7 +174,7 @@ async function handlecreateReserva() {
             fontSize: 15,
             fontWeight: '500',
             marginBottom: 10,
-            color: '#800080',
+            color: '#fff',
         },
         btn: {
             backgroundColor: '#800080',

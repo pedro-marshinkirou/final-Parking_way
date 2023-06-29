@@ -10,13 +10,13 @@ const Home = () => {
   };
 
   const handleCadastro = () => {
-    navigation.navigate('Cadastro');
+    navigation.navigate('Sublogin');
   };
 
   return (
     <View style={styles.page}>
       <View style={styles.formLogin}>
-        <Text style={styles.title}>Home</Text>
+        <Text style={styles.title}>Parking Way</Text>
         <Text style={styles.description}>Bem-vindo à página inicial!</Text>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.btn} onPress={handleLogin}>
@@ -37,10 +37,10 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#1a1a1a',
+    backgroundColor: '#000000',
   },
   formLogin: {
-    backgroundColor: '#333',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     shadowColor: '#000',
@@ -54,11 +54,11 @@ const styles = {
     margin: 0,
     fontWeight: '500',
     fontSize: 28,
-    color: '#fff',
+    color: '#c026d3',
   },
   description: {
     fontSize: 14,
-    color: '#999',
+    color: '#fff',
     marginBottom: 25,
   },
   buttonContainer: {
@@ -67,8 +67,8 @@ const styles = {
     padding: 0,
   },
   btn: {
-    backgroundColor: '#f72585',
-    borderRadius: 4,
+    backgroundColor: '#800080',
+    borderRadius: 14,
     paddingVertical: 20,
     paddingHorizontal: 40,
     margin: 0,

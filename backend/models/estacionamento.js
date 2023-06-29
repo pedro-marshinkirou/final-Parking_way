@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
-mongoose.connect('mongodb+srv://sutherland:gbUNh28zi6NQO75n@zenovia.ylzqyxn.mongodb.net/?retryWrites=true', { useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true});
 
 const EstacionamentoSchema = new mongoose.Schema({
 

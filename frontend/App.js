@@ -24,13 +24,15 @@ import ReservaConfirm from './src/paginas/reservaConfirm';
 import ReservaInitiada from './src/paginas/reservaIniciada';
 import ReservaEncerrad from './src/paginas/reservaEncerrada';
 import ReservasFinalizad from './src/paginas/reservaFinalizada';
+import Home from './src/paginas/home';
 
 const Stack = createStackNavigator();
 
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Sublogin" component={Sublogin} />
         <Stack.Screen name="Cadfuncio" component={Cadfuncio} />
         <Stack.Screen name="Cadcliente" component={Cadcliente} />

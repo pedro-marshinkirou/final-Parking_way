@@ -113,6 +113,13 @@ var reservasService = {
     return reservasFNLZDS;
   },
 
+  getReservasFinalizadasCLienteBYID: async (id) => {
+    console.log(id +'.......A3');
+    var reservasClienteFNLZDS = await axios.get(`http://10.0.2.2:5000/apireserva/finalizadasCliente/`+ id);
+    console.log(reservasClienteFNLZDS +'........A4');
+    return reservasClienteFNLZDS;
+  },
+
 }
 
 export default reservasService;

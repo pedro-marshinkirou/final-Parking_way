@@ -32,7 +32,7 @@ const HomeFuncionario = () => {
     <View style={styles.page}>
       <View style={styles.formLogin}>
         <Text style={styles.title}>Menu</Text>
-        <Text style={styles.description}>Bem-vindo ao Parking Way</Text>
+        <Text style={styles.description}>Parking Way</Text>
         <View style={styles.buttonContainer}>
           <View style={styles.buttonSpacer} />
           <TouchableOpacity style={styles.btn} onPress={handleGerenciar}>
@@ -66,10 +66,10 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#000000',
   },
   formLogin: {
-    backgroundColor: '#dcdcdc',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     shadowColor: '#000',
@@ -83,11 +83,11 @@ const styles = {
     margin: 0,
     fontWeight: '500',
     fontSize: 28,
-    color: '#000000',
+    color: '#c026d3',
   },
   description: {
     fontSize: 14,
-    color: '#808080',
+    color: '#000000',
     marginBottom: 25,
   },
   buttonContainer: {

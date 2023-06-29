@@ -65,7 +65,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     width:'100%' ,

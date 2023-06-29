@@ -237,4 +237,15 @@ exports.reservaGetfinalizadas = async (req, res) => {
             res.status(500)
             .json({message: err.message});
             }
-        }
+        },
+exports.reservaGetfinalizadasCliente = async (req, res) => {
+            try{
+                 const id = req.params.id;
+                 const reservas = await Reserva.ReservaModel.find({cliente: id, status: 'FINALIZADA'}).sort({_id: -1});
+                 console.log(reservas);
+                 res.json(reservas);
+            } catch (err) {
+             res.status(500)
+             .json({message: err.message});
+             }
+         }

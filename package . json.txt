@@ -1,0 +1,12 @@
+{
+  "name": "NOME DA TUA EQUIPE",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "npm install"
+  },
+  "dependencies": {
+   TUAS DEPENDENCIAS
+  }
+}

@@ -69,14 +69,14 @@ function EstacFunc() {
             alignItems: 'center',
             justifyContent: 'center',
             height: '100%',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#000000',
         },
         contentLogin: {
             flex: 1,
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#000000',
             borderRadius: 7,
             padding: 40,
             width: '100%',
@@ -91,10 +91,10 @@ function EstacFunc() {
             gap: 5,
         },
         heading: {
-            fontSize: 20,
+            fontSize: 22,
             fontWeight: '500',
             marginBottom: 20,
-            color: '#800080',
+            color: '#c026d3',
         },
         boxLogin: {
             position: 'relative',
@@ -176,7 +176,7 @@ function EstacFunc() {
             fontSize: 15,
             fontWeight: '500',
             marginBottom: 10,
-            color: '#800080',
+            color: '#fff',
         },
         btn: {
             backgroundColor: '#800080',

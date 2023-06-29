@@ -106,7 +106,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     width: '100%',
@@ -124,7 +124,7 @@ const styles = {
     fontSize: 26,
     fontWeight: '500',
     marginBottom: 20,
-    color: '#000000',
+    color: '#c026d3',
   },
   boxLogin: {
     position: 'relative',

@@ -18,4 +18,6 @@ router.put('/iniciar/:id', reservaController.iniciarReserva);
 router.get('/iniciadas/:id', reservaController.reservaGetIniciadas);
 router.put('/finalizar/:id', reservaController.finalizarReserva);
 router.get('/finalizadas/:id', reservaController.reservaGetfinalizadas);
+router.get('/finalizadasCliente/:id', reservaController.reservaGetfinalizadasCliente);
+
 module.exports = router;

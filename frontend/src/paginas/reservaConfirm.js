@@ -91,14 +91,14 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100%',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#000000',
     },
     contentLogin: {
         flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#000000',
         borderRadius: 7,
         padding: 40,
         width: '100%',
@@ -210,7 +210,7 @@ const styles = {
         fontSize: 15,
         fontWeight: '500',
         marginBottom: 10,
-        color: '#800080',
+        color: '#fff',
     },
 };
 export default ReservaConfirm;

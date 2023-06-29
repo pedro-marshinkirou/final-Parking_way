@@ -52,7 +52,7 @@ const MenuReservas = () => {
   return (
     <View style={styles.page}>
       <View style={styles.formLogin}>
-        <Text style={styles.title}>MenuReservas</Text>
+        <Text style={styles.title}>Menu de Reservas</Text>
         <Text style={styles.description}>Menu de Reservas</Text>
         <View style={styles.buttonContainer}>
           <View style={styles.buttonSpacer} />
@@ -89,10 +89,10 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#000000',
   },
   formLogin: {
-    backgroundColor: '#dcdcdc',
+    backgroundColor: '#000000',
     borderRadius: 7,
     padding: 40,
     shadowColor: '#000',
@@ -105,12 +105,12 @@ const styles = {
     padding: 0,
     margin: 0,
     fontWeight: '500',
-    fontSize: 28,
-    color: '#000000',
+    fontSize: 24,
+    color: '#c026d3',
   },
   description: {
     fontSize: 14,
-    color: '#808080',
+    color: '#000000',
     marginBottom: 25,
   },
   buttonContainer: {
